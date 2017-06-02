@@ -1,0 +1,4 @@
+[Client]
+RMI_HOST = localhost
+RMI_PORT = 1099
+

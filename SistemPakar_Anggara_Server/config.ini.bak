@@ -1,0 +1,14 @@
+[Driver]
+DB_DRIVER_CLASSNAME		= com.mysql.jdbc.Driver
+DB_URL					= jdbc:mysql://${Server/DB_HOST}:${Server/DB_PORT}/${Server/DB_NAME}?autoReconnect=true
+
+[Server]
+DB_HOST					= localhost
+DB_PORT					= 3306
+DB_NAME					= db_spa
+DB_USER					= spa_user
+DB_PASS					= 
+RMI_PORT				= 1099
+
+[Client]
+SESSION_TIMEOUT			= 600
